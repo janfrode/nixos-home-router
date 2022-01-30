@@ -20,4 +20,4 @@ isn't.
 
 The router runs DHCP, DNS, NTP,  Wireguard and syslog from internal networks.
 
-
+I store my secrets in /etc/nixos/secrets/, which is excluded from this repo by .gitignore.
