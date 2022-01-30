@@ -12,6 +12,7 @@
       #./networking/interfaces-nogw.nix
       ./networking/wireguard.nix
       ./networking/firewall.nix
+      ./services/avahi.nix
       ./services/chrony.nix
       ./services/dhcpd4.nix
       ./services/rsyslogd.nix
