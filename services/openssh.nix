@@ -7,7 +7,7 @@
      extraConfig = ''
        AllowTcpForwarding yes
        X11Forwarding no
-       AllowAgentForwarding no
+       AllowAgentForwarding yes
        AllowStreamLocalForwarding no
        AuthenticationMethods publickey
     '';
