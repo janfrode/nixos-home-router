@@ -11,5 +11,6 @@
     allowedUDPPorts = [ 61891 ];
     allowedTCPPorts = [ 22 80 ];
     trustedInterfaces = [ "wireguard" "vlan20" "vlan30" "vlan99" ];
+    logRefusedConnections = false;
   };
 }
