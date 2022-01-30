@@ -14,6 +14,7 @@
       ./networking/firewall.nix
       ./services/avahi.nix
       ./services/chrony.nix
+      ./services/darkhttpd.nix
       ./services/dhcpd4.nix
       ./services/rsyslogd.nix
       ./services/openssh.nix
