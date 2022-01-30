@@ -11,7 +11,7 @@ My ISP connection goes to the switch, and is mapped to VLAN10.
 
 Unifi access points are placed in the infrastrructure VLAN1.
 
-My rental appartment is on VLAN20.  
+My basement apartment is on VLAN20.  
 
 My own devices are on VLAN30.
 
