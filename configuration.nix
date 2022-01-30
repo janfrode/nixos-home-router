@@ -76,7 +76,11 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-     tmux (import ./vim.nix) git nftables ethtool
+     tmux 
+     git
+     nftables
+     ethtool
+     (import ./vim.nix) 
   ];
 
   # This value determines the NixOS release from which the default
