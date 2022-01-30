@@ -125,6 +125,8 @@ boot.kernel.sysctl = {
     wantedBy = [ "default.target" ];
   };
 
+  # Only members of wheel may sudo:
+  security.sudo.execWheelOnly = true;
   environment.variables = { EDITOR = "vi"; };
 
 }
